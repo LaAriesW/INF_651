@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dark Ops News</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-bg-dark">
+    <div id="body-container" class="m-0 p-0">
+      <!--NAV CONTAINER WITH DROPDOWN MENU-->
+      <div class="container pt-3" id="nav-container">
+        <nav
+          class="navbar navbar-expand-lg bg-black py-0"
+          data-bs-theme="black"
+        >
+          <div class="container-fluid my-0 py-0 ps-3">
+            <a class="navbar-brand" href="index.html">
+              <img src="./images/DarkOpsLogo.svg" alt="DARK OPS" width="50" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link link-light" aria-current="page" href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="news.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="DarkOps.html">DARK OPS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-light" href="futureOps.html">FUTURE OPS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--BUTTONS TO FILTER DATA-->
+      <div id="filters" class="container my-3">
+        <button id="blog-btn" class="btn btn-light fw-bold me-2 filter-btn" style="color: rgb(255, 110, 0)">
+          BLOGS
+        </button>
+        <button id="guide-btn" class="btn btn-light fw-bold filter-btn" style="color: rgb(255, 110, 0)">
+          GUIDES
+        </button>
+      </div>
+      <!--NEWS CARDS WITH FILTER-->
+      
+      <div class="card news blog" style="width: 50%; ">
+        <img src="./images/PatchNotes.avif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Patch Notes</h5>
+          <p class="card-text">
+            Patch notes for version 1.0.7. Several bug fixes and weapon balances.
+          </p>
+          <a href="patchNotes.html" class="btn btn-dark news">Read More</a>
+        </div>
+      </div>
+    
+    <div class="card news guide" style="width: 50%;">
+      <img src="./images/HowTo.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">How To Win More Games</h5>
+        <p class="card-text">
+          Several tips that could help you win your next game. 
+          Brought to you by pros.
+        </p>
+        <a href="winMore.html" class="btn btn-dark news">Read More</a>
+      </div>
+    </div>
+  </div>
+
+<footer class="bg-black">
+  <div class="py-3 text-center "><a href="codeOfConduct.html" class="badge badge-pill badge-secondary fs-5">Code of Conduct</a></div>
+  <div class="text-center mx-5 pb-4">© 2024 LaAries Publishing, Inc. LAARIES, DARK OPS, and FUTURE OPS 
+    are trademarks of LAARIES Publishing, Inc. All other trademarks and trade 
+    names are the property of their respective owners.</div>
+</footer> 
+</div>   
+    <script src="newsScript.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

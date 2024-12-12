@@ -1,0 +1,49 @@
+a:link, .future-ops-links{
+    color:#212529;
+    text-decoration: none;
+}
+
+a:visited, .future-ops-links  {
+    color:#212529;
+    text-decoration: none;
+
+}
+
+a:hover, .future-ops-links{
+    color:#383e43;
+    text-decoration: none;
+
+}
+
+ 
+
+.card.news {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.btn.btn-dark.news {
+    width: 150px;
+    margin: auto;
+    color: rgb(255, 110, 0);
+    font-weight: bold;
+    
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+#patchNotesImg {
+    width: 60%;
+    height: auto;
+    margin:auto;
+
+}
+
+#patchNotesImgCont{
+    width: 100%;
+    text-align: center;
+    
+}
